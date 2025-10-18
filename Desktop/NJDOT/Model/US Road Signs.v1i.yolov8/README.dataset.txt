@@ -20,23 +20,5 @@ It helps identify common signs like *Stop*, *Speed Limit*, *Yield*, and more —
 - 🎓 **Driver Education:** Help new drivers learn sign meanings.  
 - 🚦 **Traffic Analysis:** Monitor sign compliance using CCTV or drone footage.
 
----
-
-## 🧠 Model Info
-| Parameter | Details |
-|------------|----------|
-| **Framework** | Ultralytics YOLOv8 |
-| **Model Variant** | `yolov8n.pt` |
-| **Hardware** | Apple M3 (CPU) |
-| **Epochs** | 50 |
-| **Image Size** | 640×640 |
-
----
-
-## ⚙️ Usage
-
-### Train
-```python
-from ultralytics import YOLO
-model = YOLO('yolov8n.pt')
+)
 model.train(data='data.yaml', epochs=50, imgsz=640, batch=8, name='US_Road_Signs_Model', device='cpu')
