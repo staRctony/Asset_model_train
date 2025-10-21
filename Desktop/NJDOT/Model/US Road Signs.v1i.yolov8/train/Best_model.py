@@ -3,9 +3,9 @@ import cv2
 
 # ---------------- CONFIG ----------------
 MODEL_PATH = '/Users/sudhir/Desktop/NJDOT/Model/US Road Signs.v1i.yolov8/best_model.pt'
-VIDEO_PATH = '/Users/sudhir/Desktop/NJDOT/Model/Video_data/model_test.mov'
+VIDEO_PATH = '/Users/sudhir/Downloads/IMG_9173.MOV'
 SAVE_OUTPUT = True
-OUTPUT_PATH = 'output_annotated.mp4'
+OUTPUT_PATH = 'output_annotated_highway.mp4'
 CONF_THRESHOLD = 0.25
 DEVICE = 'cpu'  # change to 'cuda' if you have GPU
 # ---------------------------------------
